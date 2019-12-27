@@ -1,0 +1,27 @@
+2019-12-25 08:17:54.987 [main] INFO  com.csdj.acct.AcctApplication - Starting AcctApplication on DESKTOP-01GOI8L with PID 9180 (started by é™ˆé‡‘é«˜ in C:\Users\é™ˆé‡‘é«˜\Desktop\acct)
+2019-12-25 08:17:54.988 [main] DEBUG com.csdj.acct.AcctApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2019-12-25 08:17:54.989 [main] INFO  com.csdj.acct.AcctApplication - No active profile set, falling back to default profiles: default
+2019-12-25 08:17:56.465 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-12-25 08:17:56.466 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-12-25 08:17:56.466 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-25 08:17:56.468 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2019-12-25 08:17:56.468 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-12-25 08:17:56.469 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-25 08:17:56.469 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-25 08:17:56.580 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-12-25 08:17:56.802 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-12-25 08:17:57.955 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-12-25 08:17:57.995 [main] INFO  com.csdj.acct.AcctApplication - Started AcctApplication in 3.292 seconds (JVM running for 4.602)
+2019-12-25 08:18:50.122 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-25 08:18:50.844 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-12-25 08:18:51.291 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-12-25 08:18:51.306 [http-nio-8080-exec-5] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==>  Preparing: select * from acct limit ?,? 
+2019-12-25 08:18:51.323 [http-nio-8080-exec-5] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==> Parameters: 0(Integer), 5(Integer)
+2019-12-25 08:18:51.429 [http-nio-8080-exec-5] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - <==      Total: 5
+2019-12-25 08:18:51.453 [http-nio-8080-exec-5] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==>  Preparing: select count(1) from acct 
+2019-12-25 08:18:51.453 [http-nio-8080-exec-5] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==> Parameters: 
+2019-12-25 08:18:51.455 [http-nio-8080-exec-5] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - <==      Total: 1
+2019-12-25 14:12:44.051 [main] INFO  com.csdj.acct.AcctApplicationTests - Starting AcctApplicationTests on DESKTOP-01GOI8L with PID 16776 (started by ³Â½ð¸ß in C:\Users\³Â½ð¸ß\Desktop\acct)
+2019-12-25 14:12:44.054 [main] DEBUG com.csdj.acct.AcctApplicationTests - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2019-12-25 14:12:44.058 [main] INFO  com.csdj.acct.AcctApplicationTests - No active profile set, falling back to default profiles: default
+2019-12-25 14:12:51.546 [main] INFO  com.csdj.acct.AcctApplicationTests - Started AcctApplicationTests in 8.102 seconds (JVM running for 10.949)
